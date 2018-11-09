@@ -208,7 +208,7 @@
 "menu.search"           = "搜索";
 "menu.mark"             = "标记";
 "menu.note"             = "笔记";
-"menu.sketch"           = "草图";//need to find a accurate translation
+"menu.sketch"           = "批注";//need to find a accurate translation
 "menu.edit"             = "编辑";
 "menu.translate"        = "翻译";
 "menu.recognize"        = "识别";
@@ -315,7 +315,9 @@
 "bookshelf.trash"               = "回收站";
 "bookshelf.trash.detailed"      = "回收站 (为已删除的书籍)";
 "bookshelf.trash.empty"         = "空";
+<<<<<<< HEAD
 "bookshelf.trash.hint"          = "KyBook 可以恢复从本地设备、Google Drive 和 Dropboxcan 删除的书籍。\nA 来自于分享的文件夹、WebDAV 服务器、 Yandex Disk 和 OneDrive 的书籍只有在KyBook有被删除的书籍缓存时才能被恢复。";
+>>>>>>> 682a469c553eb9ec45782cef9a44a08df64e28e5
 "bookshelf.trash.limit"         = "最大容量";
 "bookshelf.undo.delete.fmt"     = " %@ 尚未删除"; // e.g. Undoing deletion of 5 books
 
@@ -436,121 +438,121 @@
 
 // DELETE
 
-"delete.areyousure"         = "Are you sure?";
-"delete.book"               = "Delete this book";
-"delete.book.ask"           = "Delete this book?";
-"delete.book.row.0"         = "This will permanently delete all information associated with the book including:";
-"delete.book.row.1"         = "- %@ of a total size of %@ on the device and in attached cloud storage.";
-"delete.book.row.2"         = "- database records, notes, reviews, etc.";
-"delete.book.done"          = "`%@` have been deleted";
-"delete.books"              = "Delete books";
-"delete.books.ask"          = "Delete %@?";
-"delete.books.row.0"        = "This will permanently delete all information associated with books including:";
-"delete.books.row.1"        = "- %@ of a total size of %@ on the device and in attached cloud storage.";
-"delete.books.row.1a"       = "- %@ on the device and in attached cloud storage.";
-"delete.books.row.2"        = "- database records, notes, reviews, etc.";
-"delete.books.done"         = "Deleted %@ in %@";
-"delete.bookshelf.ask"      = "Delete bookshelf?";
-"delete.summary.ask"        = "Delete summary?";
+"delete.areyousure"         = "你确定吗？";
+"delete.book"               = "删除本书";
+"delete.book.ask"           = "删除本书？";
+"delete.book.row.0"         = "将会删除所有和本书相关的信息，包括：";
+"delete.book.row.1"         = "- %@ 总大小为 %@ 的在本地设备与云端的所有存档。";
+"delete.book.row.2"         = "- 数据库记录、笔记、评论等等。";
+"delete.book.done"          = "`%@` 已被删除";
+"delete.books"              = "删除书籍";
+"delete.books.ask"          = "删除 %@？";
+"delete.books.row.0"        = "将会删除所有和这些书籍相关的信息，包括：";
+"delete.books.row.1"        = "- %@ 总大小为 %@ 的在本地设备与云端的所有存档。";
+"delete.books.row.1a"       = "- %@ 在设备和云端的所有存档。";
+"delete.books.row.2"        = "- 数据库记录、笔记、评论等等。";
+"delete.books.done"         = "已经将 %@ 从 %@ 中删除";
+"delete.bookshelf.ask"      = "删除书架？";
+"delete.summary.ask"        = "删除总结？";
 
 // SHARE
 
-"share.book.info"           = "Share info";
-"share.book.file"           = "Share file";
-"share.readin.kybook"       = "Read in #KyBook";
-"share.notes.from"          = "Notes from";
-"share.notes.by"            = "by";
-"share.notes.txt"           = "In TXT File";
-"share.notes.html"          = "In HTML File";
-"share.notes.markdown"      = "In Markdown File";
-"share.notes.rtf"           = "In RTF File";
-"share.notes.pdf"           = "In PDF File";
-"share.notes.pdfbook"       = "As PDF Book";
-"share.save.tobooks"        = "Save to Books";
+"share.book.info"           = "分享文件信息";
+"share.book.file"           = "分享文件";
+"share.readin.kybook"       = "在 #KyBook 中阅读";
+"share.notes.from"          = "笔记，来自于";
+"share.notes.by"            = "来自于";
+"share.notes.txt"           = "以 TXT 文档";
+"share.notes.html"          = "以 HTML 文档";
+"share.notes.markdown"      = "以 Markdown 文档";
+"share.notes.rtf"           = "以 RTF 文档";
+"share.notes.pdf"           = "以 PDF 文档";
+"share.notes.pdfbook"       = "作为 PDF 书籍";
+"share.save.tobooks"        = "保存至书籍中";
 
 // DASHBOARD
 
-"dashboard"                 = "Dashboard";
-"dashboard.notes"           = "Notes";
-"dashboard.summary"         = "Summary";
-"dashboard.summaries"       = "Summaries";
-"dashboard.summary.add"     = "Add summary";
-"dashboard.summary.add.hint"= "Enter a title for the new summary.";
-"dashboard.summarize.run"   = "Run auto summarization";
-"dashboard.summaries.widget.detail" = "Collection of user reviews";
+"dashboard"                 = "概览（Dashboard）";
+"dashboard.notes"           = "笔记";
+"dashboard.summary"         = "总结";
+"dashboard.summaries"       = "总结";
+"dashboard.summary.add"     = "添加总结";
+"dashboard.summary.add.hint"= "为新的总结输入标题";
+"dashboard.summarize.run"   = "运行自动汇总";
+"dashboard.summaries.widget.detail" = "用户评论汇总";
 
 // TAGS
 
-"tags"                      = "Tags";
-"tags.picked"               = "Picked tags";
-"tags.available"            = "Available tags";
-"tags.edit"                 = "Edit tags";
-"tags.create"               = "Create a tag";
-"tags.delete"               = "Delete the tag";
-"tags.delete.message"       = "This tag will be deleted permanently from all books and from the database! Are you sure?";
-"tags.hint.add"             = "Tap on a row to add the tag.";
-"tags.hint.delete"          = "Tap on a row to delete the tag.";
-"tags.create.dialog.name"   = "Enter a name for the tag";
-"tags.create.dialog.color"  = "Pick a color for the tag";
-"tags.create.dialog.icon"   = "Select an icon for the tag";
-"tag.new"                   = "New";
-"tag.read"                  = "Read"; //"the book has been read"
-"tag.favorite"              = "Favorite";
-"tag.readLater"             = "Read later";
+"tags"                      = "标签";
+"tags.picked"               = "已选择的标签";
+"tags.available"            = "有效的标签";
+"tags.edit"                 = "编辑标签";
+"tags.create"               = "创建一个标签";
+"tags.delete"               = "删除标签";
+"tags.delete.message"       = "这个标签将从所有的书籍及数据库中永久删除，你确定吗？";
+"tags.hint.add"             = "点击以添加标签";
+"tags.hint.delete"          = "点击以删除标签";
+"tags.create.dialog.name"   = "为标签命名";
+"tags.create.dialog.color"  = "为标签选择一个颜色";
+"tags.create.dialog.icon"   = "为标签选择一个图标";
+"tag.new"                   = "新的";
+"tag.read"                  = "已读"; //"the book has been read"
+"tag.favorite"              = "喜欢";
+"tag.readLater"             = "稍后阅读";
 
 // READER
 
-"reader.general"                    = "Reader";
-"reader.outline"                    = "Outline";
-"reader.bookmarks"                  = "Bookmarks";
-"reader.notes"                      = "Notes";
-"reader.sketches"                   = "Sketches";
-"reader.thumbnails"                 = "Thumbnails";
-"reader.summary"                    = "Summary";
-"reader.info"                       = "Info";
-"reader.bookmark"                   = "Bookmark";
-"reader.note"                       = "Note";
-"reader.pageno"                     = "Page number";
-"reader.outline.create"             = "Add an outline";
-"reader.outline.create.auto"        = "Create automatically";
-"reader.outline.create.manually"    = "Create manually";
-"reader.layout"                     = "Layout";
-"reader.backtopage.fmt"             = "Back to page %zd";
-"reader.bookindex"                  = "Index";
-"reader.bookindex.build"            = "Build a book index";
-"reader.images"                     = "Images";
-"reader.readpos"                    = "The reading position";
-"reader.readpos.changed.ask.fmt"    = "It seems the reading position was recently changed on another device. Would you like to go to the reading position obtained from %@?";
-"reader.readpos.preserve"           = "Сonstantly keep the reading position";
-"reader.readpos.preserve.hint"      = "KyBook will save the reading position from time to time. This feature is useful only when the user has a habit of forcing KyBook to terminate while reading.";
-"reader.font.match.warning"         = "Unable to match fonts specified in the preferences. Defaults applied.";
-"reader.page.fmt"                   = "Page %zd";
-"reader.openinbook"                 = "Open in a book";
-"reader.nextpage"                   = "Next page";
-"reader.prevpage"                   = "Previous page";
+"reader.general"                    = "阅读器";
+"reader.outline"                    = "目录";
+"reader.bookmarks"                  = "书签";
+"reader.notes"                      = "笔记";
+"reader.sketches"                   = "批注";
+"reader.thumbnails"                 = "缩略图";
+"reader.summary"                    = "总结";
+"reader.info"                       = "书籍信息";
+"reader.bookmark"                   = "书签";
+"reader.note"                       = "笔记";
+"reader.pageno"                     = "页码";
+"reader.outline.create"             = "添加书籍目录";
+"reader.outline.create.auto"        = "自动创建";
+"reader.outline.create.manually"    = "手动创建";
+"reader.layout"                     = "样式";
+"reader.backtopage.fmt"             = "回到第 %zd";
+"reader.bookindex"                  = "索引";
+"reader.bookindex.build"            = "创建书籍索引";
+"reader.images"                     = "图片";
+"reader.readpos"                    = "阅读位置";
+"reader.readpos.changed.ask.fmt"    = "阅读位置最近似乎在其他设备上有所变动。你想跳至来自于 %@ 的阅读位置吗？";
+"reader.readpos.preserve"           = "持续保存阅读位置";
+"reader.readpos.preserve.hint"      = "KyBook 会定时保存阅读位置。当用户有在阅读时强制终止 KyBook的习惯时，这个特性会很有帮助。";
+"reader.font.match.warning"         = "无法匹配偏好设置中的字体，已加载默认设置。";
+"reader.page.fmt"                   = "页码 %zd";
+"reader.openinbook"                 = "在书籍中打开";
+"reader.nextpage"                   = "下一页";
+"reader.prevpage"                   = "上一页";
 
 // READER MENU
 
-"reader.menu.fullscreen"            = "Fullscreen mode";
-"reader.menu.fullscreen.off"        = "Fullscreen off";
-"reader.menu.sketches"              = "Sketches toolbar";
-"reader.menu.sketches.off"          = "Hide sketches toolbar";
-"reader.menu.speak"                 = "Text to speech";
-"reader.menu.speak.stop"            = "Stop TTS";
-"reader.menu.rapid"                 = "Speed reading";
-"reader.menu.autoscroll"            = "Auto scroll";
-"reader.menu.autoscroll.off"        = "Stop auto scroll";
-"reader.menu.synchronize"           = "Synchronize";
-"reader.menu.horzlock"              = "Horizontal scroll lock";
-"reader.menu.horzunlock"            = "Horizontal scroll unlock";
+"reader.menu.fullscreen"            = "全拼模式";
+"reader.menu.fullscreen.off"        = "关闭全屏模式";
+"reader.menu.sketches"              = "批注工具栏";
+"reader.menu.sketches.off"          = "隐藏批注工具栏";
+"reader.menu.speak"                 = "文字转换成语音";
+"reader.menu.speak.stop"            = "停止文字语音转换";
+"reader.menu.rapid"                 = "加速朗读";
+"reader.menu.autoscroll"            = "自动滚屏";
+"reader.menu.autoscroll.off"        = "停止自动滚屏";
+"reader.menu.synchronize"           = "同步";
+"reader.menu.horzlock"              = "锁定水平滚动";
+"reader.menu.horzunlock"            = "解锁水平滚动";
 "reader.menu.reflow.on"             = "Reflow On";
 "reader.menu.reflow.off"            = "Reflow Off";
 
 // READER SETTINGS
 
-"reader.settings.general"           = "Preferences";
-"reader.settings.theme"             = "Theme";
-"reader.settings.themes"            = "Themes";
+"reader.settings.general"           = "偏好设置";
+"reader.settings.theme"             = "主题";
+"reader.settings.themes"            = "主题";
 "reader.settings.font"              = "Font (typeface)";
 "reader.settings.page.turn"         = "Page turn";
 "reader.settings.page.spread"       = "Page spread";
