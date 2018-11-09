@@ -208,7 +208,7 @@
 "menu.search"           = "搜索";
 "menu.mark"             = "标记";
 "menu.note"             = "笔记";
-"menu.sketch"           = "草图";//need to find a accurate translation
+"menu.sketch"           = "批注";//need to find a accurate translation
 "menu.edit"             = "编辑";
 "menu.translate"        = "翻译";
 "menu.recognize"        = "识别";
@@ -470,7 +470,7 @@
 
 // DASHBOARD
 
-"dashboard"                 = "Dashboard";
+"dashboard"                 = "概览（Dashboard）";
 "dashboard.notes"           = "笔记";
 "dashboard.summary"         = "总结";
 "dashboard.summaries"       = "总结";
@@ -481,76 +481,76 @@
 
 // TAGS
 
-"tags"                      = "Tags";
-"tags.picked"               = "Picked tags";
-"tags.available"            = "Available tags";
-"tags.edit"                 = "Edit tags";
-"tags.create"               = "Create a tag";
-"tags.delete"               = "Delete the tag";
-"tags.delete.message"       = "This tag will be deleted permanently from all books and from the database! Are you sure?";
-"tags.hint.add"             = "Tap on a row to add the tag.";
-"tags.hint.delete"          = "Tap on a row to delete the tag.";
-"tags.create.dialog.name"   = "Enter a name for the tag";
-"tags.create.dialog.color"  = "Pick a color for the tag";
-"tags.create.dialog.icon"   = "Select an icon for the tag";
-"tag.new"                   = "New";
-"tag.read"                  = "Read"; //"the book has been read"
-"tag.favorite"              = "Favorite";
-"tag.readLater"             = "Read later";
+"tags"                      = "标签";
+"tags.picked"               = "已选择的标签";
+"tags.available"            = "有效的标签";
+"tags.edit"                 = "编辑标签";
+"tags.create"               = "创建一个标签";
+"tags.delete"               = "删除标签";
+"tags.delete.message"       = "这个标签将从所有的书籍及数据库中永久删除，你确定吗？";
+"tags.hint.add"             = "点击以添加标签";
+"tags.hint.delete"          = "点击以删除标签";
+"tags.create.dialog.name"   = "为标签命名";
+"tags.create.dialog.color"  = "为标签选择一个颜色";
+"tags.create.dialog.icon"   = "为标签选择一个图标";
+"tag.new"                   = "新的";
+"tag.read"                  = "已读"; //"the book has been read"
+"tag.favorite"              = "喜欢";
+"tag.readLater"             = "稍后阅读";
 
 // READER
 
-"reader.general"                    = "Reader";
-"reader.outline"                    = "Outline";
-"reader.bookmarks"                  = "Bookmarks";
-"reader.notes"                      = "Notes";
-"reader.sketches"                   = "Sketches";
-"reader.thumbnails"                 = "Thumbnails";
-"reader.summary"                    = "Summary";
-"reader.info"                       = "Info";
-"reader.bookmark"                   = "Bookmark";
-"reader.note"                       = "Note";
-"reader.pageno"                     = "Page number";
-"reader.outline.create"             = "Add an outline";
-"reader.outline.create.auto"        = "Create automatically";
-"reader.outline.create.manually"    = "Create manually";
-"reader.layout"                     = "Layout";
-"reader.backtopage.fmt"             = "Back to page %zd";
-"reader.bookindex"                  = "Index";
-"reader.bookindex.build"            = "Build a book index";
-"reader.images"                     = "Images";
-"reader.readpos"                    = "The reading position";
-"reader.readpos.changed.ask.fmt"    = "It seems the reading position was recently changed on another device. Would you like to go to the reading position obtained from %@?";
-"reader.readpos.preserve"           = "Сonstantly keep the reading position";
-"reader.readpos.preserve.hint"      = "KyBook will save the reading position from time to time. This feature is useful only when the user has a habit of forcing KyBook to terminate while reading.";
-"reader.font.match.warning"         = "Unable to match fonts specified in the preferences. Defaults applied.";
-"reader.page.fmt"                   = "Page %zd";
-"reader.openinbook"                 = "Open in a book";
-"reader.nextpage"                   = "Next page";
-"reader.prevpage"                   = "Previous page";
+"reader.general"                    = "阅读器";
+"reader.outline"                    = "目录";
+"reader.bookmarks"                  = "书签";
+"reader.notes"                      = "笔记";
+"reader.sketches"                   = "批注";
+"reader.thumbnails"                 = "缩略图";
+"reader.summary"                    = "总结";
+"reader.info"                       = "书籍信息";
+"reader.bookmark"                   = "书签";
+"reader.note"                       = "笔记";
+"reader.pageno"                     = "页码";
+"reader.outline.create"             = "添加书籍目录";
+"reader.outline.create.auto"        = "自动创建";
+"reader.outline.create.manually"    = "手动创建";
+"reader.layout"                     = "样式";
+"reader.backtopage.fmt"             = "回到第 %zd";
+"reader.bookindex"                  = "索引";
+"reader.bookindex.build"            = "创建书籍索引";
+"reader.images"                     = "图片";
+"reader.readpos"                    = "阅读位置";
+"reader.readpos.changed.ask.fmt"    = "阅读位置最近似乎在其他设备上有所变动。你想跳至来自于 %@ 的阅读位置吗？";
+"reader.readpos.preserve"           = "持续保存阅读位置";
+"reader.readpos.preserve.hint"      = "KyBook 会定时保存阅读位置。当用户有在阅读时强制终止 KyBook的习惯时，这个特性会很有帮助。";
+"reader.font.match.warning"         = "无法匹配偏好设置中的字体，已加载默认设置。";
+"reader.page.fmt"                   = "页码 %zd";
+"reader.openinbook"                 = "在书籍中打开";
+"reader.nextpage"                   = "下一页";
+"reader.prevpage"                   = "上一页";
 
 // READER MENU
 
-"reader.menu.fullscreen"            = "Fullscreen mode";
-"reader.menu.fullscreen.off"        = "Fullscreen off";
-"reader.menu.sketches"              = "Sketches toolbar";
-"reader.menu.sketches.off"          = "Hide sketches toolbar";
-"reader.menu.speak"                 = "Text to speech";
-"reader.menu.speak.stop"            = "Stop TTS";
-"reader.menu.rapid"                 = "Speed reading";
-"reader.menu.autoscroll"            = "Auto scroll";
-"reader.menu.autoscroll.off"        = "Stop auto scroll";
-"reader.menu.synchronize"           = "Synchronize";
-"reader.menu.horzlock"              = "Horizontal scroll lock";
-"reader.menu.horzunlock"            = "Horizontal scroll unlock";
+"reader.menu.fullscreen"            = "全拼模式";
+"reader.menu.fullscreen.off"        = "关闭全屏模式";
+"reader.menu.sketches"              = "批注工具栏";
+"reader.menu.sketches.off"          = "隐藏批注工具栏";
+"reader.menu.speak"                 = "文字转换成语音";
+"reader.menu.speak.stop"            = "停止文字语音转换";
+"reader.menu.rapid"                 = "加速朗读";
+"reader.menu.autoscroll"            = "自动滚屏";
+"reader.menu.autoscroll.off"        = "停止自动滚屏";
+"reader.menu.synchronize"           = "同步";
+"reader.menu.horzlock"              = "锁定水平滚动";
+"reader.menu.horzunlock"            = "解锁水平滚动";
 "reader.menu.reflow.on"             = "Reflow On";
 "reader.menu.reflow.off"            = "Reflow Off";
 
 // READER SETTINGS
 
-"reader.settings.general"           = "Preferences";
-"reader.settings.theme"             = "Theme";
-"reader.settings.themes"            = "Themes";
+"reader.settings.general"           = "偏好设置";
+"reader.settings.theme"             = "主题";
+"reader.settings.themes"            = "主题";
 "reader.settings.font"              = "Font (typeface)";
 "reader.settings.page.turn"         = "Page turn";
 "reader.settings.page.spread"       = "Page spread";
