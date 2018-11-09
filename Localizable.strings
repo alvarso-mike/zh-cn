@@ -317,6 +317,8 @@
 "bookshelf.trash.empty"         = "空";
 <<<<<<< HEAD
 "bookshelf.trash.hint"          = "KyBook 可以恢复从本地设备、Google Drive 和 Dropboxcan 删除的书籍。\nA 来自于分享的文件夹、WebDAV 服务器、 Yandex Disk 和 OneDrive 的书籍只有在KyBook有被删除的书籍缓存时才能被恢复。";
+=======
+"bookshelf.trash.hint"          = "KyBook 可以恢复从本地设备、Google Drive 和 Dropbox 删除的书籍。\nA 来自于分享的文件夹、WebDAV 服务器、 Yandex Disk 和 OneDrive 的书籍只有在KyBook有被删除的书籍缓存时才能被恢复。";
 >>>>>>> 682a469c553eb9ec45782cef9a44a08df64e28e5
 "bookshelf.trash.limit"         = "最大容量";
 "bookshelf.undo.delete.fmt"     = " %@ 尚未删除"; // e.g. Undoing deletion of 5 books
