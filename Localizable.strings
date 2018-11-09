@@ -315,7 +315,7 @@
 "bookshelf.trash"               = "回收站";
 "bookshelf.trash.detailed"      = "回收站 (为已删除的书籍)";
 "bookshelf.trash.empty"         = "空";
-"bookshelf.trash.hint"          = "KyBook 可以恢复从本地设备、Google Drive 和 Dropboxcan 删除的书籍。\nA 来自于分享的文件夹、WebDAV 服务器、 Yandex Disk 和 OneDrive 的书籍只有在KyBook有被删除的书籍缓存时才能被恢复。";
+"bookshelf.trash.hint"          = "KyBook 可以恢复从本地设备、Google Drive 和 Dropbox 删除的书籍。\nA 来自于分享的文件夹、WebDAV 服务器、 Yandex Disk 和 OneDrive 的书籍只有在KyBook有被删除的书籍缓存时才能被恢复。";
 "bookshelf.trash.limit"         = "最大容量";
 "bookshelf.undo.delete.fmt"     = " %@ 尚未删除"; // e.g. Undoing deletion of 5 books
 
@@ -436,48 +436,48 @@
 
 // DELETE
 
-"delete.areyousure"         = "Are you sure?";
-"delete.book"               = "Delete this book";
-"delete.book.ask"           = "Delete this book?";
-"delete.book.row.0"         = "This will permanently delete all information associated with the book including:";
-"delete.book.row.1"         = "- %@ of a total size of %@ on the device and in attached cloud storage.";
-"delete.book.row.2"         = "- database records, notes, reviews, etc.";
-"delete.book.done"          = "`%@` have been deleted";
-"delete.books"              = "Delete books";
-"delete.books.ask"          = "Delete %@?";
-"delete.books.row.0"        = "This will permanently delete all information associated with books including:";
-"delete.books.row.1"        = "- %@ of a total size of %@ on the device and in attached cloud storage.";
-"delete.books.row.1a"       = "- %@ on the device and in attached cloud storage.";
-"delete.books.row.2"        = "- database records, notes, reviews, etc.";
-"delete.books.done"         = "Deleted %@ in %@";
-"delete.bookshelf.ask"      = "Delete bookshelf?";
-"delete.summary.ask"        = "Delete summary?";
+"delete.areyousure"         = "你确定吗？";
+"delete.book"               = "删除本书";
+"delete.book.ask"           = "删除本书？";
+"delete.book.row.0"         = "将会删除所有和本书相关的信息，包括：";
+"delete.book.row.1"         = "- %@ 总大小为 %@ 的在本地设备与云端的所有存档。";
+"delete.book.row.2"         = "- 数据库记录、笔记、评论等等。";
+"delete.book.done"          = "`%@` 已被删除";
+"delete.books"              = "删除书籍";
+"delete.books.ask"          = "删除 %@？";
+"delete.books.row.0"        = "将会删除所有和这些书籍相关的信息，包括：";
+"delete.books.row.1"        = "- %@ 总大小为 %@ 的在本地设备与云端的所有存档。";
+"delete.books.row.1a"       = "- %@ 在设备和云端的所有存档。";
+"delete.books.row.2"        = "- 数据库记录、笔记、评论等等。";
+"delete.books.done"         = "已经将 %@ 从 %@ 中删除";
+"delete.bookshelf.ask"      = "删除书架？";
+"delete.summary.ask"        = "删除总结？";
 
 // SHARE
 
-"share.book.info"           = "Share info";
-"share.book.file"           = "Share file";
-"share.readin.kybook"       = "Read in #KyBook";
-"share.notes.from"          = "Notes from";
-"share.notes.by"            = "by";
-"share.notes.txt"           = "In TXT File";
-"share.notes.html"          = "In HTML File";
-"share.notes.markdown"      = "In Markdown File";
-"share.notes.rtf"           = "In RTF File";
-"share.notes.pdf"           = "In PDF File";
-"share.notes.pdfbook"       = "As PDF Book";
-"share.save.tobooks"        = "Save to Books";
+"share.book.info"           = "分享文件信息";
+"share.book.file"           = "分享文件";
+"share.readin.kybook"       = "在 #KyBook 中阅读";
+"share.notes.from"          = "笔记，来自于";
+"share.notes.by"            = "来自于";
+"share.notes.txt"           = "以 TXT 文档";
+"share.notes.html"          = "以 HTML 文档";
+"share.notes.markdown"      = "以 Markdown 文档";
+"share.notes.rtf"           = "以 RTF 文档";
+"share.notes.pdf"           = "以 PDF 文档";
+"share.notes.pdfbook"       = "作为 PDF 书籍";
+"share.save.tobooks"        = "保存至书籍中";
 
 // DASHBOARD
 
 "dashboard"                 = "Dashboard";
-"dashboard.notes"           = "Notes";
-"dashboard.summary"         = "Summary";
-"dashboard.summaries"       = "Summaries";
-"dashboard.summary.add"     = "Add summary";
-"dashboard.summary.add.hint"= "Enter a title for the new summary.";
-"dashboard.summarize.run"   = "Run auto summarization";
-"dashboard.summaries.widget.detail" = "Collection of user reviews";
+"dashboard.notes"           = "笔记";
+"dashboard.summary"         = "总结";
+"dashboard.summaries"       = "总结";
+"dashboard.summary.add"     = "添加总结";
+"dashboard.summary.add.hint"= "为新的总结输入标题";
+"dashboard.summarize.run"   = "运行自动汇总";
+"dashboard.summaries.widget.detail" = "用户评论汇总";
 
 // TAGS
 
