@@ -580,14 +580,14 @@
 "reader.settings.line.spacing"      = "行间距";
 "reader.settings.hyphenation"       = "自动断字";
 "reader.settings.punctuation"       = "标点悬挂";
-"reader.settings.nowidow"           = "禁止跨页断行";
+"reader.settings.nowidow"           = "孤行控制";
 "reader.settings.nobookstyle"       = "忽略书籍自带样式";
 "reader.settings.stylesheet"        = "样式表";
 "reader.settings.userstyles"        = "用户样式表";
 "reader.settings.userstyles.none"   = "无";
 "reader.settings.userstyles.used"   = "已设定";
 "reader.settings.userstyles.browse" = "从存储选择";
-"reader.settings.userstyles.import" = "使用自带 文件 App导入";
+"reader.settings.userstyles.import" = "使用自带 文件（File） 导入";
 "reader.settings.userstyles.edit"   = "编辑样式表";
 "reader.settings.userstyles.sample" = "阅览基础样式表";
 "reader.settings.userstyles.reset"  = "重置样式表";
@@ -600,67 +600,67 @@
 "reader.settings.page.turn.slide"   = "平滑";
 "reader.settings.theme.delete.ask"  = "删除主题？";
 "reader.settings.reset"             = "重置为默认设置";
-"reader.settings.docs.fit"                  = "Fit mode";
-"reader.settings.docs.fit.width"            = "Page width";
-"reader.settings.docs.fit.text"             = "Text and crop margins";
-"reader.settings.docs.fit.page"             = "Whole page";
-"reader.settings.docs.backg"                = "Page background";
-"reader.settings.docs.backg.theme"          = "In-theme color";
-"reader.settings.docs.backg.adaptive"       = "Adaptive color";
-"reader.settings.docs.progressive"          = "Progressive render";
-"reader.settings.docs.marklinks"            = "Highlight links";
-"reader.settings.docs.filterbook"           = "Theme book";
-"reader.settings.docs.smoothscroll"         = "Smooth scroll";
-"reader.settings.docs.progressive.hint"     = "Draws a page step by step from low to full quality if possible.";
-"reader.settings.docs.smoothscroll.hint"    = "Smoother scrolling in the scroll mode, but may lose some render quality for zoomed pages.";
-"reader.settings.docs.filterbook.hint"      = "Renders a page in the theme's colors.";
-"reader.settings.docs.marklinks.hint"       = "Highlights interactive links on a page.";
-"reader.settings.docs.readability.upsample" = "Upsampling";
-"reader.settings.docs.readability.autotint" = "Auto adjust";
-"reader.settings.docs.pagesep"              = "Page separations";
-"reader.settings.docs.pagesep.hint"         = "Advanced scroll mode setting.";
-"reader.settings.audio.smartresume"         = "Smart rewind";
-"reader.settings.audio.smartresume.hint"    = "When playback resumes after a pause, rewind 30 seconds.";
+"reader.settings.docs.fit"                  = "页面缩放";
+"reader.settings.docs.fit.width"            = "页面宽度";
+"reader.settings.docs.fit.text"             = "裁剪模式";
+"reader.settings.docs.fit.page"             = "整页显示";
+"reader.settings.docs.backg"                = "页面背景;
+"reader.settings.docs.backg.theme"          = "主题色";
+"reader.settings.docs.backg.adaptive"       = "自动选色";
+"reader.settings.docs.progressive"          = "渐进式渲染";
+"reader.settings.docs.marklinks"            = "高亮链接";
+"reader.settings.docs.filterbook"           = "主题化";
+"reader.settings.docs.smoothscroll"         = "流畅滚动";
+"reader.settings.docs.progressive.hint"     = "逐步从低质量向高质量渲染（如果可用）。";
+"reader.settings.docs.smoothscroll.hint"    = "更加顺滑地滚动页面，但是在缩放页面可能损失一些渲染质量。";
+"reader.settings.docs.filterbook.hint"      = "将页面渲染为主题颜色";
+"reader.settings.docs.marklinks.hint"       = "高亮可交互式链接。;
+"reader.settings.docs.readability.upsample" = "图像插值";
+"reader.settings.docs.readability.autotint" = "自动调整";
+"reader.settings.docs.pagesep"              = "分页";
+"reader.settings.docs.pagesep.hint"         = "高级滚动模式";
+"reader.settings.audio.smartresume"         = "智能倒带";
+"reader.settings.audio.smartresume.hint"    = "暂停后播放恢复时，倒带30秒。";
 
 // THEME
 
-"theme.general"             = "Theme";
-"theme.day"                 = "Day";
-"theme.sepia"               = "Sepia";
-"theme.night"               = "Night";
-"theme.dusk"                = "Dusk";
-"theme.dawn"                = "Dawn";
-"theme.pastel"              = "Pastel";
-"theme.sand"                = "Sand";
-"theme.tango"               = "Tango";
-"theme.name"                = "Name";
-"theme.name.hint"           = "Enter a theme's name.";
-"theme.pallete"             = "Palette";
-"theme.pallete.accent"      = "Accent";
-"theme.pallete.text"        = "Text";
-"theme.pallete.background"  = "Background";
-"theme.pallete.divider"     = "Separator";
-"theme.pallete.grayed"      = "Grayed";
-"theme.pallete.control"     = "Controls";
-"theme.pallete.selection"   = "Selection";
-"theme.pallete.secondary"   = "Secondary text";
-"theme.warning"             = "Unable replace a preset theme";
+"theme.general"             = "主题";
+"theme.day"                 = "白天";
+"theme.sepia"               = "褐色";
+"theme.night"               = "深夜";
+"theme.dusk"                = "黄昏";
+"theme.dawn"                = "黎明";
+"theme.pastel"              = "柔和";
+"theme.sand"                = "砂色";
+"theme.tango"               = "暮色";
+"theme.name"                = "名称";
+"theme.name.hint"           = "输入主题名称";
+"theme.pallete"             = "调色板";
+"theme.pallete.accent"      = "强调";
+"theme.pallete.text"        = "文字";
+"theme.pallete.background"  = "背景";
+"theme.pallete.divider"     = "分隔";
+"theme.pallete.grayed"      = "灰度";
+"theme.pallete.control"     = "控制区域";
+"theme.pallete.selection"   = "选择";
+"theme.pallete.secondary"   = "次级文字";
+"theme.warning"             = "无法替换现有主题";
 
 // FONT PICKER
 
-"font.picker.general"       = "Fonts";
-"font.picker.default"       = "Default font";
-"font.picker.favorited"     = "Favorite fonts";
-"font.picker.user"          = "User's fonts";
-"font.picker.downlodable"   = "Downloadable fonts";
-"font.picker.system"        = "System fonts";
-"font.picker.add"           = "Add font";
-"font.picker.add.browse"    = "Select from storage";
-"font.picker.add.import"    = "Import with Apple's Files app";
-"font.picker.add.download"  = "Download font";
-"font.picker.add.done.fmt"  = "Font %@/%zd has been added";
-"font.picker.add.more.hint" = "Moreover, you can add fonts by copying font files (.ttf or .otf) into App Documents via iTunes File Sharing.\n On the iPad, drag and drop the font files into the box below.";
-"font.picker.add.drop"      = "Drag and drop the font files here";
+"font.picker.general"       = "字体";
+"font.picker.default"       = "默认字体";
+"font.picker.favorited"     = "推荐";
+"font.picker.user"          = "用户字体";
+"font.picker.downlodable"   = "可下载字体";
+"font.picker.system"        = "系统字体";
+"font.picker.add"           = "添加字体";
+"font.picker.add.browse"    = "从存储中添加";
+"font.picker.add.import"    = "使用 文件（File） 导入";
+"font.picker.add.download"  = "下载字体";
+"font.picker.add.done.fmt"  = "字体 %@/%zd 一倍添加";
+"font.picker.add.more.hint" = "你可以通过iTunes将字体文件（.ttf或者.otf）复制进应用。\n 在 iPad 上，你可以将字体文件拖拽进下方的格子内。";
+"font.picker.add.drop"      = "将字体文件拖拽至此";
 
 // EMPTY PLACEHOLDERS
 
@@ -766,7 +766,7 @@
 
 // TIPS
 
-"tip.reader.fullscreen.exit"    = "Tap here to exit full screen mode";
+"tip.reader.fullscreen.exit"    = "点击此处退出全屏模式";
 
 // MISC
 
