@@ -254,7 +254,7 @@
 "bookshelf.read"            = "已通读";
 "bookshelf.rated"           = "带有评分";
 "bookshelf.all"             = "所有书籍";
-"bookshelf.cataloguer"      = "书单";
+"bookshelf.cataloguer"      = "书库";
 
 "bookshelf.add"             = "添加一个书架";
 "bookshelf.add.folder"      = "将本地文件夹或者已添加的云端文件夹添加为书架";
@@ -294,7 +294,7 @@
 "bookshelf.detail.publishers"   = "出版社清单";
 "bookshelf.detail.tags"         = "标签清单";
 "bookshelf.detail.collections"  = "收藏清单";
-"bookshelf.detail.cataloguer"   = "所有清单";
+"bookshelf.detail.cataloguer"   = "书库清单";
 
 "bookshelf.empty"               = "清空书架";
 "bookshelf.empty.recent"        = "最近30天内尚尚未读过书籍";
@@ -318,6 +318,11 @@
 "bookshelf.trash.hint"          = "KyBook 可以恢复从本地设备、Google Drive 和 Dropbox 删除的书籍。\nA 来自于分享的文件夹、WebDAV 服务器、 Yandex Disk 和 OneDrive 的书籍只有在KyBook有被删除的书籍缓存时才能被恢复。";
 "bookshelf.trash.limit"         = "最大容量";
 "bookshelf.undo.delete.fmt"     = " %@ 尚未删除"; // e.g. Undoing deletion of 5 books
+"bookshelf.author.page"             = "作者网页";
+"bookshelf.author.page.enter"       = "输入作者网页的网址。";
+"bookshelf.author.page.search"      = "正在互联网中搜索作者网页的网址...";
+"bookshelf.author.page.search.fail" = "KyBook 无法找到作者网页的网址。";
+"bookshelf.author.page.search.done" = "已找到作者网页的网址";
 
 // BOOKCARD
 
@@ -621,6 +626,9 @@
 "reader.settings.docs.pagesep.hint"         = "高级滚动模式";
 "reader.settings.audio.smartresume"         = "智能倒带";
 "reader.settings.audio.smartresume.hint"    = "暂停后播放恢复时，倒带30秒。";
+"reader.settings.audio.playlist"            = "播放列表";
+"reader.settings.audio.playlist.hint"       = "从文件夹中的 mp3 文件自动生成播放列表。";
+
 
 // THEME
 
@@ -664,105 +672,105 @@
 
 // EMPTY PLACEHOLDERS
 
-"empty.page"                    = "Blank page";
-"empty.outline"                 = "No outline";
-"empty.outline.hint"            = "Tap 'Add an outline' button to create a table of contents";
-"empty.bookmarks"               = "No bookmarks";
-"empty.bookmarks.hint"          = "Tap the far right button on the page footer to add a bookmark.";
-"empty.notes"                   = "No notes";
-"empty.notes.hint"              = "Use a long press gesture for selecting text on a page in the book and then select menu 'Mark' to add a note.";
-"empty.sketches"                = "No sketches";
-"empty.sketches.hint"           = "Open the sketches toolbar and then use Apple Pencil or your finger for drawing sketches on a page.";
-"empty.summary"                 = "Write the book summary here";
-"empty.summary.hint"            = "KyBook supports Markdown formatting and may export a summary as HTML, PDF or RTF.";
-"empty.bookindex"               = "Empty book index";
-"empty.bookindex.none"          = "The book index has not been built yet";
-"empty.reading"                 = "No books were being read in the last thirty days";
-"empty.catalog.page"            = "This page is empty";
-"empty.catalog.reviews"         = "No reviews found";
-"empty.summaries"               = "No summaries";
-"empty.dictionaries"            = "No dictionaries";
-"empty.articles"                = "No articles";
-"empty.favorites"               = "No favorites";
-"empty.collections"             = "No collections";
-"empty.downloads"               = "No downloads";
+"empty.page"                    = "空白页";
+"empty.outline"                 = "无目录";
+"empty.outline.hint"            = "点击 '添加目录'，以创建一个内容列表";
+"empty.bookmarks"               = "没有书签";
+"empty.bookmarks.hint"          = "点击书页右下角的按键添加书签。";
+"empty.notes"                   = "无笔记";
+"empty.notes.hint"              = "长按选择阅读页面上的文字，选择菜单中的 '标记' 以添加一条笔记。";
+"empty.sketches"                = "无批注";
+"empty.sketches.hint"           = "打开批注工具栏，使用  Apple Pencil 或者手指在页面上进行批注。";
+"empty.summary"                 = "编写书籍总结";
+"empty.summary.hint"            = "KyBook 支持 Markdown 格式并且可以导出为 HTML、PDF  或者 RTF 格式文件。";
+"empty.bookindex"               = "无书籍索引";
+"empty.bookindex.none"          = "书籍索引尚未创建。";
+"empty.reading"                 = "最近30天内，尚未阅读任何书籍。";
+"empty.catalog.page"            = "此页空白";
+"empty.catalog.reviews"         = "未发现评论";
+"empty.summaries"               = "无总结";
+"empty.dictionaries"            = "无字典";
+"empty.articles"                = "无文章";
+"empty.favorites"               = "无最喜欢";
+"empty.collections"             = "无收藏";
+"empty.downloads"               = "无下载数据";
 
 // NOTE
 
-"note.citation"                 = "Citation";
-"note.sticker"                  = "Sticker";
+"note.citation"                 = "引文";
+"note.sticker"                  = "便签";
 "note.scrap"                    = "Scrap";
-"note.sketch"                   = "Sketch";
-"note.color"                    = "Color";
-"note.style"                    = "Style";
-"note.style.fill"               = "Fill";
-"note.style.strikeline"         = "Strikethrough";
-"note.style.underline"          = "Underline";
-"note.style.doubleline"         = "Double line";
-"note.style.wavy"               = "Wavy";
-"note.style.dots"               = "Dots";
-"note.color.red"                = "Red";
-"note.color.pink"               = "Pink";
-"note.color.purple"             = "Purple";
-"note.color.violet"             = "Violet";
-"note.color.blue"               = "Blue";
-"note.color.green"              = "Green";
-"note.color.yellow"             = "Yellow";
-"note.color.orange"             = "Orange";
-"note.color.brown"              = "Brown";
+"note.sketch"                   = "批注";
+"note.color"                    = "颜色";
+"note.style"                    = "样式";
+"note.style.fill"               = "填充";
+"note.style.strikeline"         = "删除线";
+"note.style.underline"          = "下划线";
+"note.style.doubleline"         = "双下划线";
+"note.style.wavy"               = "波浪线";
+"note.style.dots"               = "点线";
+"note.color.red"                = "红色";
+"note.color.pink"               = "粉红色";
+"note.color.purple"             = "紫色";
+"note.color.violet"             = "蓝紫色";
+"note.color.blue"               = "蓝色";
+"note.color.green"              = "绿色";
+"note.color.yellow"             = "黄色";
+"note.color.orange"             = "橘黄色";
+"note.color.brown"              = "棕色";
 
 // SKETCH
 
-"sketch.general"                = "Sketch";
-"sketch.brush"                  = "Brush";
-"sketch.brush.color"            = "Color";
-"sketch.brush.fill"             = "Fill color";
-"sketch.brush.opacity"          = "Opacity";
-"sketch.brush.thickness"        = "Thickness";
-"sketch.brush.style"            = "Style";
-"sketch.arrow"                  = "Arrow";
-"sketch.line"                   = "Line";
-"sketch.rectangle"              = "Rectangle";
-"sketch.ellipse"                = "Ellipse";
-"sketch.polyline"               = "Polyline";
-"sketch.text"                   = "Text";
-"sketch.stiker"                 = "Sticker";
+"sketch.general"                = "批注";
+"sketch.brush"                  = "画笔";
+"sketch.brush.color"            = "颜色";
+"sketch.brush.fill"             = "填充颜色";
+"sketch.brush.opacity"          = "不透明度";
+"sketch.brush.thickness"        = "粗细";
+"sketch.brush.style"            = "样式";
+"sketch.arrow"                  = "箭头";
+"sketch.line"                   = "直线";
+"sketch.rectangle"              = "矩形";
+"sketch.ellipse"                = "椭圆";
+"sketch.polyline"               = "多段线";
+"sketch.text"                   = "文字";
+"sketch.stiker"                 = "便签";
 "sketch.emoji"                  = "Emoji";
-"brush.linestyle.solid"         = "Solid";
-"brush.linestyle.dotted"        = "Dotted";
-"brush.linestyle.dashed"        = "Dashed";
+"brush.linestyle.solid"         = "实体";
+"brush.linestyle.dotted"        = "点线";
+"brush.linestyle.dashed"        = "虚线";
 
 // SEARCH
 
-"search.scope.book"             = "Book";
-"search.scope.dictionary"       = "Dictionary";
-"search.scope.translate"        = "Translate";
-"search.scope.internet"         = "Internet";
+"search.scope.book"             = "书籍";
+"search.scope.dictionary"       = "字典";
+"search.scope.translate"        = "翻译";
+"search.scope.internet"         = "互联网";
 "search.scope.wikipedia"        = "Wikipedia";
 "search.scope.wolframalpha"     = "Wolfram|Alpha";
-"search.scope.library"          = "Library";
-"search.scope.catalogs"         = "Catalogs";
-"search.executing"              = "Searching ...";
-"search.continue.fmt"           = "Searching, %@ found ..."; // e.g. Searching, 2 matches found ...
-"search.done.fmt"               = "Done, %@ found"; // e.g. Done, 2 matches found
-"search.none"                   = "Oops, we can't find what you are looking for";
-"search.matching"               = "Matching";
-"search.matching.textual"       = "Textual";
-"search.matching.regular"       = "Regular";
-"search.matching.fuzzy"         = "Fuzzy";
-"search.matching.exact"         = "Exact";
-"search.matching.substring"     = "Substring";
-"search.matching.pattern"       = "Pattern";
-"search.area.in"                = "Search in";
-"search.area.in.title"          = "Title";
-"search.area.in.keywords"       = "Keywords";
-"search.area.in.sequence"       = "Series";
-"search.area.in.author"         = "Author";
-"search.area.in.annotation"     = "Annotation";
-"search.area.in.filename"       = "Filename";
-"search.engine.google"          = "Google search";
-"search.bookshelf.promt"        = "Search in this bookshelf";
-"search.widget.detail"          = "Search in the library";
+"search.scope.library"          = "图书馆";
+"search.scope.catalogs"         = "目录";
+"search.executing"              = "正在搜索...";
+"search.continue.fmt"           = "正在搜索， 已发现 %@..."; // e.g. Searching, 2 matches found ...
+"search.done.fmt"               = "已完成，发现 %@"; // e.g. Done, 2 matches found
+"search.none"                   = "不好意思，没有发现任何匹配。";
+"search.matching"               = "匹配中";
+"search.matching.textual"       = "只有文字";
+"search.matching.regular"       = "正常";
+"search.matching.fuzzy"         = "模糊";
+"search.matching.exact"         = "精确";
+"search.matching.substring"     = "部分匹配";
+"search.matching.pattern"       = "模式匹配";
+"search.area.in"                = "搜索位置";
+"search.area.in.title"          = "书名";
+"search.area.in.keywords"       = "关键词";
+"search.area.in.sequence"       = "系列";
+"search.area.in.author"         = "作者";
+"search.area.in.annotation"     = "注释";
+"search.area.in.filename"       = "文件名";
+"search.engine.google"          = "Google";
+"search.bookshelf.promt"        = "在书架中搜索";
+"search.widget.detail"          = "在图书馆中搜索";
 
 // TIPS
 
@@ -771,29 +779,29 @@
 // MISC
 
 "misc.abc"                      = "Abc";
-"image.grabbing"                = "Image Grabbing Mode";
-"pasteboard.copy.image"         = "Image was copied onto the clipboard";
-"misc.chapter.fmt"              = "Chapter %zd";
-"misc.start.editing"            = "Start editing";
-"misc.add.books"                = "Add books";
-"misc.some.added.fmt"           = "%@ added"; // 5 books were added
-"misc.addbook.duplicate"        = "Skipped because of a duplicate";
-"misc.used.of.fmt"              = "%@ of %@ occupied"; // 100 mB Of 1GB occupied
+"image.grabbing"                = "图片抓取模式";
+"pasteboard.copy.image"         = "图片已被复制进剪贴板";
+"misc.chapter.fmt"              = "第 %zd 章";
+"misc.start.editing"            = "开始编辑";
+"misc.add.books"                = "添加书籍";
+"misc.some.added.fmt"           = "%@ 已被添加"; // 5 books were added
+"misc.addbook.duplicate"        = "文件已存在";
+"misc.used.of.fmt"              = "已复制 %@，共 %@ "; // 100 mB Of 1GB occupied
 
 // MARKDOWN
 
-"markdown.conf.citation"        = "Citation";
-"markdown.conf.citation.hint"   = "When pasting or dragging a citation from a book.";
-"markdown.conf.citation.quote"  = "Format as a quotation block";
-"markdown.conf.citation.link"   = "Insert a link to the source";
+"markdown.conf.citation"        = "引文";
+"markdown.conf.citation.hint"   = "当从书中粘贴或者拖拽一段引文。";
+"markdown.conf.citation.quote"  = "使用引文块作为格式";
+"markdown.conf.citation.link"   = "插入来链接";
 
 // APP CONTROL
 
-"app.control"                      = "Control";
-"app.control.services"             = "Services";
-"app.control.prefs"                = "Preferences";
-"app.control.advanced.ui"          = "Advanced interface";
-"app.control.advanced.ui.hint"     = "Allows several active tabs (similar to Safari).\n\nActivation of the advanced interface is via a PRO or PREMIUM in-app purchase.";
+"app.control"                      = "设置";
+"app.control.services"             = "服务";
+"app.control.prefs"                = "偏好";
+"app.control.advanced.ui"          = "高级界面";
+"app.control.advanced.ui.hint"     = "允许同时有多个活动页面（类似于 Safari）。\n\n激活高级界面需要购买专业或者高级应用内购。";
 
 // APP PREFS
 
@@ -823,7 +831,7 @@
 "app.prefs.reader.fullscreen.header"= "Hide header bar";
 "app.prefs.reader.fullscreen.footer"= "Hide footer bar";
 "app.prefs.reader.fullscreen.hint"  = "By default, KyBook automatically switches to full-screen mode when you start reading. To exit full-screen mode, tap the header bar. In addition, you can enable a central tap to toggle full-screen mode.";
-"app.prefs.reader.forcetouch.hint"  = "Force Touch can be used to perform the preferred action on the selected text.";
+"app.prefs.reader.forcetouch.hint"  = "Force (3D) Touch 可以被用来对所选文字执行设定的操作。";
 "app.prefs.reader.idletimer"        = "Disable screen auto-lock";
 "app.prefs.reader.idletimer.hint"   = "As long as the book is open, the screen remains switched on.";
 "app.prefs.reader.rotationlock"     = "Rotation lock";
@@ -1184,6 +1192,7 @@
 "account.delete"                    = "Delete account";
 "account.delete.ask"                = "Delete account?";
 "account.delete.message"            = "Deleting the account will also delete all stored information about books and notes in the cloud. Synchronization will no longer be available. \n\nPlease enter `DELETE` for confirmation";
+"account.delete.confirmation"       = "DELETE";
 "account.anonymous"                 = "Anonymous";
 "account.devices"                   = "Devices";
 "account.devices.detach"            = "Detach device";
@@ -1213,6 +1222,10 @@
 "sync.push.notifications.hint"      = "Notifications are useful for stable synchronization between your devices.";
 "sync.state.none"                   = "Not synchronized";
 "sync.state.synced"                 = "Synced";
+"sync.files.title"                  = "Cloud files";
+"sync.files.remove"                 = "Remove";
+"sync.files.hint"                   = "Use a swipe gesture to remove the book file from the KyBook cloud and free up space.";
+"sync.files.empty"                  = "No files have been uploaded yet";
 
 // BIZ
 
